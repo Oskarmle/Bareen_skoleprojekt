@@ -1,0 +1,130 @@
+/* css reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header css */
+header{
+    display: flex;
+    height: 100px;
+    width: 1200px;
+    background-color: white;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.bareen_logo{
+    padding: 30px 0;
+    align-self: center;
+}
+
+nav{
+    display: flex;
+}
+
+nav a{
+    font-size: 40px;
+    text-decoration: none;
+    align-self: center;
+    font-weight: bold;
+}
+
+.style{
+    color: black;
+}
+
+.guide{
+    color: #e13a3e;
+}
+
+/* main del med video og articles */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main>*{
+    margin-bottom: 40px;
+}
+
+.capture{
+    width: 1200px;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    width: 1200px;
+}
+
+article img{
+    height: 300px;
+}
+
+.describe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+
+.styleguide{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.styleguide>*{
+    padding-bottom: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.capture{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid black;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+span{
+    color: #e13a3e;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+footer img, .logo img{
+    height: 100px;
+}
+
+footer p{
+    font-size: 15px;
+    font-weight: bold;
+}
